@@ -15,8 +15,6 @@ $("form").submit(function(event) {
         customerID: $("#id").val().trim()
     };
 
-    var customer =
-
 })
 
 
