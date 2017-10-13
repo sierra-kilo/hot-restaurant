@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hot Restaurant</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Days+One|Playfair+Display+SC|Sanchez|Yrsa" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+</head>
+<body>
+	<div class = "container" >
+		<div class="jumbotron text-center" id="header">
+			<h1>Current Reservations and Waiting List</h1>
+			<button type="button" class="btn btn-primary">Make a Reservation</button>
+			<button type="button" class="btn btn-default" aria-label="Left Align">
+  				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			</button>
+		</div>
+
+		<div class="row" id="fav">
+
+              <div class="panel panel-default navtop">
+                <div class="panel-heading head-text">Current Reservations</div> 
+                  <div class="panel-body">
+                    <div id="crnt-res"></div>
+                  </div>
+                </div>
+
+         </div>
+         <div class="row" id="fav">
+
+              <div class="panel panel-default navtop">
+                <div class="panel-heading head-text">Waitlist</div> 
+                  <div class="panel-body">
+                    <div id="waitlist"></div>
+                  </div>
+                </div>
+
+         </div>
+		
+		<a href=""> API Table Link </a>
+		<a href=""> API Wait List </a>
+		<a href=""> Clear Table </a>
+	</div>
